@@ -53,7 +53,6 @@ namespace ForEachLoop
                 Console.ReadKey();
                 Console.Clear();
             }
-
         }
 
         static void ShowTodos(List<string> todo)
@@ -66,7 +65,6 @@ namespace ForEachLoop
                 Console.WriteLine($"{i + 1} {item}");
                 i++;
             }
-
         }
 
         static void AddToTodoList(List<string> todo)
@@ -88,6 +86,7 @@ namespace ForEachLoop
                 Console.WriteLine("added todo:" + " " + lastElement);
             }
         }
+        
         static void RemoveTodo(List<string> todo)
         {
             Console.WriteLine("Enter the number of the todo to remove:");
