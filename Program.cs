@@ -96,9 +96,9 @@ namespace ForEachLoop
                 Console.WriteLine("Enter valid value");
             }
 
-            string removedTodo = todo[removeTodoAtIndex - 1]; // saves todo before removing it 
+            string removedTodo = todo[removeTodoAtIndex - 1]; 
 
-            todo.RemoveAt(removeTodoAtIndex - 1); // actualy removing Todo
+            todo.RemoveAt(removeTodoAtIndex - 1); 
             Console.WriteLine($"Removed todo: {removedTodo}");
         }
 
