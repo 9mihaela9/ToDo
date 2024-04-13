@@ -25,8 +25,6 @@ namespace ForEachLoop
                     "\nType 3 to view the last added Todo" +
                     "\nType 4 to remvoe todo");
 
-                //int choice = Convert.ToInt32(Console.ReadLine());
-
                 if (!int.TryParse(Console.ReadLine(), out int choice) || choice < 1 || choice > 3)
                 {
                     Console.WriteLine("Enter a number betwen 1 and 3: ");
